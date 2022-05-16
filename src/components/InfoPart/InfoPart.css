@@ -1,0 +1,102 @@
+.info-part{
+  padding: 20px;
+}
+
+.btn-groups{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px !important;
+}
+
+.btn-groups .sumbit-btn{
+  width: 90%;
+}
+
+.btn-item:last-child .sumbit-btn{
+  padding-left: 8px;
+}
+
+.active{
+  background-color: #000;
+  color: #fff;
+}
+
+.name-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.name-item{
+  padding: 10px;
+}
+
+.main:nth-child(odd){
+  padding-left: 0;
+}
+
+.cover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.cover a{
+  color: #000;
+  opacity: 0.5;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.cover a::after{
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #000;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.cover a:hover ::after{
+  width: 100%;
+}
+
+.name-item{
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.joint{
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.close-btn{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bx-x{
+  font-size: 20px;
+}
+
+.hide-it{
+  display: none;
+}
+

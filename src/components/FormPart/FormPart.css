@@ -1,0 +1,70 @@
+.form-part{
+  padding: 20px;
+}
+
+.form-part .sumbit-btn{
+  margin-top: 20px;
+}
+
+.form-title{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.holder{
+  margin-bottom: 30px;
+}
+
+.label-group{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+ 
+input[type="tel"]::placeholder{
+  font-size: 14px;
+  color: #ccc;
+}
+
+input[type="text"]::placeholder{
+  font-size: 14px;
+  color: #ccc;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #000;
+}
+
+.sumbit-btn{
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 150px;
+  font-weight: bold;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.sumbit-btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.r-label{
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.select-option{
+  padding: 5px 5px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.select-option:focus{
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #000;
+}
